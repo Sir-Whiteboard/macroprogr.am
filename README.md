@@ -1,2 +1,2 @@
-# macroprogr.am
+# MACRORPROGR.AM
 My personal website
