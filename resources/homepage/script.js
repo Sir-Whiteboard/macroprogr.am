@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     commandInput.addEventListener('keydown', (event) => {
         if (event.key === 'Enter') {
-            const command = commandInput.value.trim();
+            const command = commandInput.value.trim().toLowerCase();
             if (command in commands) {
                 if (command === 'clear') {
                     outputDiv.innerHTML = '';
