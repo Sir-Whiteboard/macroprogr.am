@@ -1,0 +1,51 @@
+body {
+    background-color: #000;
+    color: #00ff00;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.terminal {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.output {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-y: auto;
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+.input-line {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #00ff00; /* Add a border to separate the input line from the output */
+    padding-top: 10px;
+}
+
+.prompt {
+    margin-right: 5px;
+}
+
+.input {
+    background: none;
+    border: none;
+    color: #00ff00;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #00ff00; /* Add an outline to the input box */
+    border-radius: 3px; /* Add a border radius for rounded corners */
+}
