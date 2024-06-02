@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         help: 'Available commands: help, directory, about, hello, date, clear',
         hello: 'Hello, world!',
         date: new Date().toString(),
-        directory: '<a href="/piracy.html">/piracy</a>\n<a href="/flood.html">/flood</a>\n<a href="/ming.html">/ming</a>',
+        directory: '<a href="/piracy.html">/piracy</a>\n<a href="/flood.html">/flood</a>\n<a href="/about.html">/about</a>',
         piracy: '',
         flood: '',
         ming: '',
